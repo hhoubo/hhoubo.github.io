@@ -21,9 +21,7 @@
 title: Bo's tech blog
 email: hhoubo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Good good study  Day day up
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hou_boo
@@ -32,7 +30,11 @@ github_username:  hhoubo
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
+  - jekyll-default-layout
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-theme-cayman
 
 # Exclude from processing.
 # The following items will not be processed, by default.
